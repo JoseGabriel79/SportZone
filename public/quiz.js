@@ -26,7 +26,7 @@ async function montarPerguntas() {
     // Inicializa o conteúdo do container (limpa o que tinha antes)
     containerHTML.innerHTML = `
         <br>
-        <h1 class = "titulo-pagina">Quiz Futebol</h1>
+        <h1 class = "titulo-pagina">Quiz Esportes</h1>
         <div class = "campoPontos">
         <br>
         <br>
