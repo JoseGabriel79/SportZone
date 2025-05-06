@@ -144,7 +144,8 @@ app.post("/pergunta", (req, res) => {
             req.body.resposta4,
             req.body.respostaCorreta
         );
-        //res.status(200).json({ message: "Pergunta adicionada com sucesso!" });
+        res.status(200).json({ message: "Pergunta adicionada com sucesso!" });
+
     } catch (err) {
         res.status(500).json({ error: err.message });
     }
