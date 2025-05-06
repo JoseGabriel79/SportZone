@@ -2,68 +2,37 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    
 }
-
+h1{
+    font-family: "SmackLaidethDown2024", sans-serif;
+    font-size: 300%;
+}
 form {
+    background-color: rgba(51, 50, 50, 0.863);
+    
     display: flex;
     flex-direction: column;
     border: 2px solid black;
     padding: 10px;
+    margin: 10px;
+    margin-top: 50px;
+    
+}
+input{
+    border: 0.5px solid black;
+    margin: 3px;
+    background-color: rgba(126, 122, 122, 0.863);
 }
 
-header {
-    background-color: rgb(34, 34, 34);
-    width: 200vh;
-    height: 15vh
+button{
+    height: 100%;
+    width: 100%;
 }
 
-li {
-    color: white;
-    font-size: 20px;
-
+body h1{
+    text-align: center;
 }
-
-ul {
-    display: flex;
-    flex-direction: row;
-    gap: 3vh;
-    position: absolute;
-    top: 6vh;
-    left: 2vh;
-    font-size: 2px;
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.logo {
-    height: 50px;
-    border-radius: 70px;
-    position: absolute;
-    top: 4vh;
-    left: 48vh;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 2px solid black;
-    padding: 20px;
-}
-
-
-.container {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 205vh;
-    left: 30vh;
-}
-
-.criadores {
-    display: flex;
-    position: absolute;
-    height: 4vh;
-    left: 2vh;
+body{
+    background-color: rgb(90, 89, 89, 0.3);
 }

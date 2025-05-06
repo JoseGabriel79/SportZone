@@ -3,27 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="cadastro.css">
     <title>Cadastrar Pergunta</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cadastro.css">
 </head>
 <body>
     <header>
         <ul>
-            <a href="index.html"><li>Inicio</li></a>
-            <a href="Noticias.html"><li>Noticias</li></a>
+            <a href="index.html">
+                <li>Inicio</li>
+            </a>
+            <a href="Noticias.html">
+                <li>Noticias</li>
+            </a>
             <li>
-                <Select id="options" class="selecionador">
-                    <option value="" disabled selected> QUIZ</option>
-                    <option value="quiz.html"> Quiz Futebol</option>
-                    <option value="quiz.html"> Quiz Futebol Americano</option>
-                    <option value="quiz.html"> Quiz Basquete</option>
-                    <option value="quiz.html"> Quiz Beisebol</option>
-                </Select>
+                <select id="options" class="selecionador" onchange="navegarQuiz(this)">
+                    <option value="" disabled selected>QUIZ</option>
+                    <option value="quiz-geral.html">Quiz Geral</option>
+                    <option value="quiz-futebol.html">Quiz Futebol</option>
+                    <option value="quiz-americano.html">Quiz Futebol Americano</option>
+                    <option value="quiz-basquete.html">Quiz Basquete</option>
+                    <option value="quiz-beisebol.html">Quiz Beisebol</option>
+                  </select>
             </li>
-
+            <li>
+                <img src="SportZoneg.png" alt="LogoSportsZone" class="logo">
+            </li>
         </ul>
-        <img src="SportZoneg.png" alt="LogoSportsZone" class="logo">
     </header>
     
     <h1>Cadastrar pergunta</h1>
@@ -60,5 +66,6 @@
 
         <button type="submit">Finalizar Cadastro</button>
     </form>
+    <script src="noticias.js"></script>
 </body>
 </html>
