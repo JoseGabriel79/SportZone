@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+header {
+    background-color: rgb(34, 34, 34);
+    width: 200vh;
+    height: 15vh
+}
+
+li {
+    color: white;
+    font-size: 20px;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    position: absolute;
+    top: 6vh;
+    left: 2vh;
+    font-size: 2px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo {
+    height: 50px;
+    border-radius: 70px;
+    position: absolute;
+    top: 4vh;
+    left: 48vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 205vh;
+    left: 30vh;
+}
+
+.criadores {
+    display: flex;
+    position: absolute;
+    height: 4vh;
+    left: 2vh;
+}

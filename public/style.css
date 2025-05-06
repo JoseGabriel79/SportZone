@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+    font-family: "SmackLaidethDown2024";
+    src: url('SmackLaidethDown2024.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+main h1 {
+    font-family: "SmackLaidethDown2024", sans-serif;
+    font-size: 350%;
+}
+
+.cardNoticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.cardNoticiasdoEsporte {
+    border: 2px solid black;
+    padding: 20px;
+}
+
+header {
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+}
+
+.selecionador {
+    background-color: rgba(51, 50, 50, 0.863);
+    color: white;
+    border-radius: 8px;
+    width: 100%;
+    cursor: pointer;
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    border-color: #007BFF;
+    box-shadow: 0 0 0 3px rgba(14, 24, 35, 0.2);
+}
+
+li {
+    color: rgb(255, 253, 253);
+    margin: 10px;
+    font-size: 800%;
+}
+
+.exessao {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 3vh;
+    font-size: 2px;
+    list-style-type: none;
+    text-decoration: none;
+    /* position: absolute;
+    top: 6vh;
+    left: 2vh; */
+}
+
+.logo {
+    height: 50px;
+    border-radius: 70px;
+    /* position: absolute;
+    top: 4vh;
+    left: 48vh; */
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(90, 89, 89, 0.3);
+    border-radius: 7px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card h2 {
+    font-size: 150%;
+}
+
+.card p {
+    font-size: 90%;
+}
+
+.cr7marcamessi {
+    width: 90%;
+    border-radius: 20%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e7e2e2;
+    row-gap: 10px;
+    padding: 20px;
+    padding-bottom: 100px;
+    /* position: absolute;
+    top: 20vh;
+    left: 4vh;*/
+}
+
+button {
+    background-color: brown;
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.Logorodape {
+    border-radius: 100%;
+    height: 7vh;
+    left: 5vh;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+    font-size: 10px;
+    background-color: #222;
+    color: white;
+    gap: 20px;
+}
+
+.instaFooter {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    font-size: 80%;
+}
+
+.instaFooter span {
+    display: flex;
+    gap: 1px;
+}
+
+.imgFooter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.insta {
+
+    height: 15px;
+    border-radius: 6px;
+}
+
+.espaco {
+    height: 3900px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.umBotao {
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}

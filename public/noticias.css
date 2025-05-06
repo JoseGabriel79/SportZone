@@ -1,0 +1,39 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+.cardNoticiasdoEsporte {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 0;
+}
+.exessao{
+  padding: 20px;
+}
+.linkNoticia{
+  display: inline-block;
+  text-decoration: none;
+  color: #1b5e20;               /* Verde escuro para o texto */
+  background-color: #c8e6c9;    /* Verde claro de fundo */
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.linkNoticia:hover {
+  background-color: #66bb6a;    /* Verde médio no hover */
+  color: white;                 /* Texto branco no hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);  /* Efeito de "levantar" */;
+}
+h2{
+  font-family: "SmackLaidethDown2024", sans-serif;
+  font-size: 280%;
+}

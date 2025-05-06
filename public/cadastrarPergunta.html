@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <title>Cadastrar Pergunta</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <a href="index.html"><li>Inicio</li></a>
+            <a href="Noticias.html"><li>Noticias</li></a>
+            <li>
+                <Select id="options" class="selecionador">
+                    <option value="" disabled selected> QUIZ</option>
+                    <option value="quiz.html"> Quiz Futebol</option>
+                    <option value="quiz.html"> Quiz Futebol Americano</option>
+                    <option value="quiz.html"> Quiz Basquete</option>
+                    <option value="quiz.html"> Quiz Beisebol</option>
+                </Select>
+            </li>
+
+        </ul>
+        <img src="SportZoneg.png" alt="LogoSportsZone" class="logo">
+    </header>
+    
+    <h1>Cadastrar pergunta</h1>
+    <form action="http://localhost:3000/pergunta" method="POST">
+        <span>
+            <label for="pergunta">Pergunta:</label>
+            <input type="text" name="pergunta" required>
+        </span>
+
+        <span>
+            <label for="resposta1">Alternativa 1:</label>
+            <input type="text" name="resposta1" id="" required>
+        </span>
+
+        <span>
+            <label for="resposta2">Alternativa 2:</label>
+            <input type="text" name="resposta2" id="" required>
+        </span>
+
+        <span>
+            <label for="resposta3">Alternativa 3:</label>
+            <input type="text" name="resposta3" id="" required>
+        </span>
+
+        <span>
+            <label for="resposta4">Alternativa 4:</label>
+            <input type="text" name="resposta4" id="" required>
+        </span>
+
+        <span>
+            <label for="respostaCorreta">Alternativa correta:</label>
+            <input type="text" name="respostaCorreta" id="" required>
+        </span>
+
+        <button type="submit">Finalizar Cadastro</button>
+    </form>
+</body>
+</html>
