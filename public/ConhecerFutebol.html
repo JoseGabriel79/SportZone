@@ -21,13 +21,13 @@
                 <li>Noticias</li>
             </a>
             <li>
-                <select id="options" class="selecionador">
-                    <option value="" disabled selected> QUIZ</option>
-                    <option value="quiz.html"> Quiz Futebol</option>
-                    <option value="quiz.html"> Quiz Futebol Americano</option>
-                    <option value="quiz.html"> Quiz Basquete</option>
-                    <option value="quiz.html"> Quiz Beisebol</option>
-                </select>
+                <select id="options" class="selecionador" onchange="navegarQuiz(this)">
+                    <option value="" disabled selected>QUIZ</option>
+                    <option value="quiz-futebol.html">Quiz Futebol</option>
+                    <option value="quiz-americano.html">Quiz Futebol Americano</option>
+                    <option value="quiz-basquete.html">Quiz Basquete</option>
+                    <option value="quiz-beisebol.html">Quiz Beisebol</option>
+                  </select>
             </li>
             <li>
                 <img src="SportZoneg.png" alt="LogoSportsZone" class="logo">
@@ -37,7 +37,7 @@
 
     <main>
         <h1>SportZone</h1>
-        <div class="card">>
+        <div class="card">
             <h2>⚽Futebol</h2>
             <h3>Como funciona?</h3>
 
