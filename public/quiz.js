@@ -207,3 +207,9 @@ async function excluirPergunta() {
 }
 // Chama a função para começar o quiz assim que o script for carregado
 montarPerguntas()
+
+
+
+
+
+// "postinstall": "npm rebuild sqlite3" jsonn
