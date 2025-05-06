@@ -1,12 +1,14 @@
 const express = require("express")
 const bp = require("body-parser")
 const cors = require("cors")
-const sqlite3 = require("sqlite3")
+const Database = require("better-sqlite3");
+
 const path = require("path")
 
 const app = express()
-const db = new sqlite3.Database("./db.sqlite")
+const db = new Database("banco.db");
 
+// const db = new sqlite3.Database("./db.sqlite")
 var PORT = 3000
 
 app.use(cors())
