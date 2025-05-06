@@ -38,7 +38,7 @@ async function montarPerguntas() {
     const quizDiv = document.getElementById("quiz")
 
     // Faz uma requisição para buscar as perguntas no servidor
-    const perguntas = await fetch("http://localhost:3000/perguntas")
+    const perguntas = await fetch("https://sportzone-ht86.onrender.com/perguntas")
     listaDePerguntas = await perguntas.json()// Converte a resposta para JSON
 
     // Mostra a primeira pergunta
@@ -177,7 +177,7 @@ function reiniciarQuiz() {
 
 async function excluirPergunta() {
     // Faz uma requisição para buscar as perguntas no servidor
-    const perguntas = await fetch("http://localhost:3000/perguntas")
+    const perguntas = await fetch("https://sportzone-ht86.onrender.com/perguntas")
     listaDePerguntas = await perguntas.json()// Converte a resposta para JSON
 
     let perguntasExcluir = ""
@@ -192,7 +192,7 @@ async function excluirPergunta() {
         return;
     }
     const idParaExcluir = perguntaSelecionada.id;
-    let req = await fetch(`http://localhost:3000/pergunta/${idParaExcluir}`,
+    let req = await fetch(`https://sportzone-ht86.onrender.com/pergunta/${idParaExcluir}`,
         { method: "DELETE" }
     )
     if (req.ok) {
